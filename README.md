@@ -22,7 +22,7 @@ You can **add, delete, search, and save notes**, with support for **dark mode** 
 ## 🛠️ Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/navicodeconnect/react-notes-taking-app.git
 cd notes-app
 npm install
 npm run dev
