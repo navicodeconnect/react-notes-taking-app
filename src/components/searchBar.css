@@ -1,0 +1,25 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  margin: 24px 0px;
+  padding: 2px 10px;
+  border: 1px solid var(--search-input-border);
+  border-radius: 8px;
+}
+
+.search-svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  height: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}

@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    color: var(--header-text);
+    background-color:  var(--header-bg);
+    box-shadow: 0 2px 4px var(--header-shadow);
+}
+
+.header h1{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.header span{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}   

@@ -1,0 +1,27 @@
+.note-card {
+  min-height: 196px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  padding: 16px 18px;
+  background-color: var(--note-bg);
+  color: var(--note-text);
+}
+
+.note-text {
+  overflow-wrap: anywhere;
+}
+
+.bin-svg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+}

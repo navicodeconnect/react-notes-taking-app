@@ -1,0 +1,29 @@
+.light {
+  --header-bg: #f1f5f9;
+  --header-shadow: rgba(0, 0, 0, 0.1);
+  --header-text: #111111;
+
+  --search-input-border: #ccc;
+  --search-input-bg: #ffffff;
+
+  --note-bg: #fef68a;
+  --note-text: #000000;
+
+  --new-note-bg: #67d7cc;
+  --button-bg: #fff;
+}
+
+.dark {
+  --header-bg: #1e293b; /* Slate-800 */
+  --header-shadow: rgba(0, 0, 0, 0.6);
+  --header-text: #f8fafc; /* Slate-50 */
+
+  --search-input-border: #3c4c63;
+  --search-input-bg: #334155; /* Slate-700 */
+
+  --note-bg: #364155; /* Deep slate blue */
+  --note-text: #e6edf7; /* Pale moonlight */
+
+  --new-note-bg: #0f3f47;
+  --button-bg: #167A8B;
+}
